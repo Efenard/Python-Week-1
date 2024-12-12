@@ -5,7 +5,7 @@ while another == "y":
   operator = input("Enter an operator. E.g (+, -, * or /): ")
   num2 = int(input("Enter the second number: "))
   if operator == "+":
-    print(f"Result of the summation is {num1 + num2}")
+    print(f"Result of the summation of {num1} + {num2} is {num1 + num2}")
   elif operator == "-":
     print(f"Result of the subtraction is {num1 - num2}")
   elif operator == "*":
